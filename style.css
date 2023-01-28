@@ -1,0 +1,523 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.img-fluid {
+  width: 80px;
+  height: 80px;
+  margin-top: -15px;
+  margin-left: -22px;
+}
+
+#menu-res {
+  margin-left: 40%;
+}
+
+.nav {
+  margin-left: 17%;
+  padding-right: 5%;
+}
+
+.nav ul li a {
+  font-size: 0.4cm;
+  font-weight: 600;
+  text-align: center;
+}
+#nav {
+  margin: 10px;
+}
+.nav ul li:hover {
+  background: #555;
+}
+ul li:hover ul {
+  display: block;
+}
+
+.nav-heading {
+  font-size: 0.5cm;
+}
+
+
+
+.nav .active {
+  background-color: #00308f;
+}
+
+.bg {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* .front-page{
+  background-color: #00308F;
+  width: 80%;
+  margin-left: 10%;
+ padding-top: 5%;
+  padding-bottom: 5%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+} */
+
+.ncc-heading {
+  font-family: "Pushster", cursive;
+  font-family: "Rubik", sans-serif;
+
+  /* margin: 200px;
+      text-align: center; */
+}
+
+.ncc-heading .h1 {
+  color: white;
+  /* text-decoration: none; */
+  /* margin: auto; */
+  font-size: 3.5rem;
+}
+
+.ncc-heading .form-control {
+  width: 300px;
+  /* text-align: center; */
+  /* align-items: center; */
+  position: relative;
+
+  /* margin:0 auto; */
+}
+
+.ncc-heading {
+  margin-top: 35%;
+  margin-bottom: 10%;
+  /* background-color: #00308F;
+  width: 80%;
+  padding: 5% 0px;
+  color: #0f0f0f; */
+
+  text-shadow: -1px -1px 3px #020202, 2px 2px 4px #1b1b1b;
+}
+
+.ncc-search {
+  justify-content: center;
+}
+
+#ncc-activities {
+  margin: 4%;
+}
+
+#activities-link {
+  text-decoration: none;
+  color: black;
+}
+
+#activities-link:hover {
+  color: #00308f;
+}
+
+#activities-image {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+#activities-image:hover {
+  opacity: 0.7;
+}
+
+/*----------------------------------------aero modeelling CSS-------------------------------*/
+
+#modelling-cards{
+  margin: 5%;
+}
+
+
+
+
+
+
+/*----------------------------------------footer CSS-------------------------------*/
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#mainFooter .footer-top {
+  background-color: #01050e;
+  padding: 6px 0;
+}
+
+#mainFooter ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#mainFooter ul li {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+}
+
+#mainFooter ul li a {
+  display: inline-block;
+  color: white;
+}
+
+#mainFooter .footer-bottom {
+  background-color: #00308F;
+  color: #fff;
+  padding: 25px 0 50px;
+}
+
+#mainFooter .copyRights .copyRightsText {
+  font-size: 0.85em;
+  margin: 0 auto 5px;
+  max-width: 500px;
+}
+
+.mr-none {
+  margin: 0 !important;
+}
+
+#mainFooter .footer-bottom a {
+  color: #00308F;
+}
+
+#mainFooter .copyRights .copyRightsText p {
+  margin: 0 0 15px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+#mainFooter .copyRights .copyRightsLogos a {
+  display: inline-block;
+  padding: 7px 30px;
+  position: relative;
+}
+
+#mainFooter .copyRights .copyRightsLogos a:after {
+  background-color: #3f3f3f;
+  width: 1px;
+  height: 60px;
+  right: -2px;
+  top: 0;
+  position: absolute;
+  content: "";
+}
+
+#mainFooter ul li.Contact :after {
+  display: inline-block;
+  content: "/";
+  margin: 0 10px;
+  color: #fff;
+}
+
+
+
+#carouselExampleIndicators {
+  margin: 4%;
+  margin-top: 15%;
+}
+
+
+
+/* ---------------------------------------------heading css---------------------- */
+
+#heading-activity {
+ margin-bottom: 2%;
+  margin-top: 10%;
+  
+}
+@media only screen and (max-width: 600px) {
+  #heading-activity {
+    margin-bottom: 2%;
+     margin-top: 27%;
+   }
+}
+
+/*-----------------------------history content------------------------------------  */
+
+#history-content {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: justify;
+}
+
+/* ----------------------------contact css--------------------------------------- */
+
+#ncc-form {
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+form label {
+  font-size: 20px;
+}
+
+.details ul li{
+  list-style: none;
+  padding: 30px 0px;
+}
+.details i {
+  padding-right: 10px;
+}
+
+.details .fa {
+  font-size: 20px;
+  line-height: 15px;
+  transition: .6s;
+  color: #000;
+}
+
+.details i:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  transform: translate(0, -10px);
+}
+
+#contact-details h3 {
+  
+  padding: 30px;
+
+}
+/* -------------------------------camp CSS-------------------------------- */
+
+#read-btn{
+  background-color: transparent;
+  color: #2aacea;
+  border: 1px solid #00308F !important;
+}
+
+#read-btn:hover{
+  background-color: #00308F;
+  color: white;
+}
+
+#national-camps{
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+#national-camps img{
+  width: 420px;
+  height: 270px;
+}
+
+#camps-card{
+   width: 70%;
+   margin-left: 15%;
+}
+
+/* ---------------------------------firing css------------------------------------------- */
+ 
+#activities-image{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 7%;
+}
+
+#firing-card{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+/* ---------------------------------flying css------------------------------------------- */
+
+#viewbutton{
+  background-color: transparent;
+  border: 2px solid #00308F;
+  color: black;
+  margin-bottom: 5%;
+ 
+}
+
+#viewbutton:hover{
+  background-color: #00308F;
+  color: white;
+}
+/* ---------------------------------uniform css------------------------------------------- */
+
+#uniform-image {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 5%;
+}
+ 
+#uniform-cards{
+  margin-left: 25%;
+  margin-bottom: 5%;
+  width: 50%;
+}
+
+
+/* --------------------------------study cs---------------------------------------- */
+
+#activities-group{
+  margin: 5%;
+}
+
+/* --------------------------------study cs---------------------------------------- */
+
+.table{
+
+   width: 85%;
+   margin: 5%;
+   margin-left: 8%;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+#cards-table{
+  display: flex;
+}
+
+#cards-library img{
+  width: 110px;
+  height: 110px;
+}
+
+#cards-library{
+  margin-top: 5%;
+  
+}
+
+#card-size{
+  width: 150px;
+}
+
+/* ------------------------------------------alumini cards css--------------- */
+
+#cards-alumini img{
+  width: 120px;
+  height: 120px;
+}
+
+/* ------------------------------------------alumini form css--------------- */
+
+#ncc-form table{
+  border: none;
+}
+
+#ncc-form table tr td{
+  padding-top: 20px;
+  font-size: 1.3rem;
+}
+
+#submit-btn{
+   padding: 0% 2%;
+}
+
+
+/* -------------gallery css----- */
+
+#gallery{
+  margin: 5%;
+}
+
+#backbutton{
+  margin-bottom: 5%;
+}
+
+/* ----------------------------------------------gallery css-------------------------------- */
+
+
+
+
+/*-----------------------------------------------half troops css------------------------*/
+.table1{
+
+  width: 95%;
+  margin: 3%;
+  /* margin-left: 8%; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+/* ------------------------------------form css--------------------------------------- */
+
+
+
+
+
+
+.get_in_touch{
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+  box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+   padding: 30px;
+}
+
+.get_in_touch .title{
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 3em;
+  line-height: 48px;
+  padding-bottom: 20px;
+  color: #5543ca;
+
+}
+
+.contact-form .form-field{
+  position: relative;
+  margin: 32px 0;
+}
+
+.contact-form .input-text{
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #5543ca;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.contact-form .input-text:focus{
+  outline: none;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text:focus.non-empty + .label{
+  transform: translateY(-24px);
+}
+
+.contact-form .label{
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #5543ca;
+  cursor: text;
+  text-transform: capitalize;  
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-form .submit-btn{
+  display: inline-block;
+  background-image: linear-gradient(125deg,#064497,#064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
